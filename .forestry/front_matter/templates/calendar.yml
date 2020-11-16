@@ -11,6 +11,7 @@ fields:
 - type: file
   name: link
   label: link
+  description: Link to the calendar—should end with .pdf
 - type: text
   name: permalink
   label: permalink
