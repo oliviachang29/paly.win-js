@@ -2,79 +2,10 @@
 layout: ad-top
 title: Paly Sites
 permalink: /paly-sites/
-publications:
-  - newtab: true
-    title: The Campanile
-    text: >-
-      The Campanile is a non-profit, student-run newspaper publication produced
-      by and for the students of Palo Alto High School.
-    link: 'https://thecampanile.org/'
-  - newtab: true
-    title: Verde Magazine
-    text: >-
-      Verde is a features and news magazine produced by students at Palo Alto
-      High School.
-    link: 'http://verdemagazine.com/'
-  - newtab: true
-    title: Paly Voice
-    text: >-
-      The Voice strives to incorporate all aspects of student life into its
-      coverage, with an emphasis on timely, reliable and relevant content.
-    link: 'https://palyvoice.com/'
-  - newtab: true
-    title: Viking Magazine
-    text: >-
-      The magazine features entirely sports content, covering the successes of
-      all Paly teams as well as delving into the deeper issues surrounding high
-      school sports.
-    link: 'https://vikingsportsmag.com/'
-  - newtab: true
-    title: C Magazine
-    text: An arts and culture magazine.
-    link: 'https://issuu.com/c_magazine'
-  - newtab: true
-    title: Madrono
-    text: Yearbook.
-    link: 'https://palymadrono.com/'
-  - newtab: true
-    title: Infocus
-    text: Broadcast TV station.
-    link: 'http://www.infocusnews.tv/'
-  - newtab: true
-    title: '[proof]'
-    text: Fine Art Magazine.
-    link: 'https://issuu.com/proofpaly'
-  - newtab: true
-    title: Paly Video Productions
-    text: >-
-      A curated selection of content celebrating excellence in Digital
-      Filmmaking and Graphic Design.
-    link: 'https://vimeo.com/palyvideoproductions/'
-  - newtab: true
-    title: KPLY
-    text: 24/7 student-run radio station.
-    link: 'https://www.palyradio.com/'
-paly_sites:
-  - newtab: true
-    title: paly.net
-    text: Official PALY website.
-    link: 'https://paly.net'
-  - newtab: true
-    title: ASB
-    text: Associated Student Body.
-    link: 'http://www.palyasb.com/'
-  - newtab: true
-    title: Library Catalog
-    text: Search for books.
-    link: 'http://pa.opals.pausd.org/bin/home'
-  - newtab: true
-    title: Athletics Site
-    text: Information on sports.
-    link: 'https://palyathletics.com/'
 ---
 <p>Links to various Paly websites.</p>
 <div class="row">
-	{% for card in paly_sites %}
+	{% for card in general.paly_sites %}
         <div class="col-md-6">
           {% include "card.njk" %}
         </div>
@@ -83,7 +14,7 @@ paly_sites:
 <h2>Publications</h2>
 <p>Are you part of a Paly publication? Request a (reasonable) change to a description by contacting me at <a href="mailto:hello@paly.win">hello@paly.win</a>.</p>
 <div class="row">
-	{% for card in publications %}
+	{% for card in general.publications %}
         <div class="col-md-6">
           {% include "card.njk" %}
         </div>
