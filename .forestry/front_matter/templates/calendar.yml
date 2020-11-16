@@ -10,12 +10,14 @@ fields:
 - type: text
   name: title
   label: title
-- type: file
-  name: link
-  label: link
-  description: Link to the calendar—should end with .pdf
 - type: text
   name: permalink
   label: permalink
+- name: link
+  type: text
+  config:
+    required: false
+  label: link
+  description: link to the calendar (should end in .pdf)
 pages:
 - src/pages/pausd-calendar.md
