@@ -12,7 +12,7 @@ sections:
   label: Pages
   create: all
   match: "**/*.md"
-  new_doc_ext: ".md"
+  new_doc_ext: md
 upload_dir: src/assets/images
 public_path: "/assets/images"
 front_matter_path: ''
