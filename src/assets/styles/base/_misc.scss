@@ -1,0 +1,43 @@
+.button {
+	color: green;
+	border: .5px solid green;
+	padding: 15px;
+	&:hover {
+		background-color: green;
+		border: .5px solid green;
+		color: white;
+	}
+}
+
+.attendance-policy-btn {
+	margin-bottom: 30px;
+}
+
+td {
+	padding-bottom: 10px;
+}
+
+#bell-schedule {
+	h2 {
+		padding-bottom: 0px;
+	}
+}
+
+#campus-map {
+	img {
+		width: 100%;
+		margin: 25px auto;
+	}
+}
+
+#not-found {
+	width: 100%;
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	a {
+		margin-top: 30px;
+	}
+}

@@ -1,0 +1,13 @@
+h1, h2, h3 {
+	padding: 25px 0 7.5px;
+}
+
+a {
+	opacity: 1;
+	transition: all .2s;
+	&:hover {
+		color: green;
+		text-decoration: none;
+		opacity: 0.8;
+	}
+}

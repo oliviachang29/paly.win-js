@@ -46,13 +46,12 @@ module.exports = function (config) {
 
     // Layouts
     config.addLayoutAlias('base', 'base.njk')
-    config.addLayoutAlias('post', 'post.njk')
 
     // Pass-through files
     config.addPassthroughCopy('src/robots.txt')
     config.addPassthroughCopy('src/site.webmanifest')
     config.addPassthroughCopy('src/assets/images')
-    config.addPassthroughCopy('src/assets/fonts')
+    config.addPassthroughCopy('src/assets/scripts')
 
     // Deep-Merge
     config.setDataDeepMerge(true)

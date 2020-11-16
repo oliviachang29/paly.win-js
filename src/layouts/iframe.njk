@@ -1,0 +1,17 @@
+---
+layout: ad-top
+---
+
+{{content | safe}}
+{% if original_link != "false" %}
+	<a href="{{ link }}" target="_blank">Open PDF in new tab</a>
+{% endif %}
+<div class="iframe-container">
+	<iframe src={{ link }} id="IFR" style="background-color: #fff;"></iframe>
+</div>
+
+<style>
+	footer {
+		display: none;
+	}
+</style>

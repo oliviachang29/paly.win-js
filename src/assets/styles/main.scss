@@ -16,9 +16,8 @@
 //--------------------
 
 @import 'base/fonts';
-@import 'base/normalize';
-@import 'base/reboot';
 @import 'base/layout';
+@import 'base/misc';
 @import 'base/typography';
 @import 'base/utilities';
 @import 'base/screenreader';
@@ -28,3 +27,5 @@
 // partials with local scope to a component
 //--------------------
 
+@import 'components/footer';
+@import 'components/iframe';
